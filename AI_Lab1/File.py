@@ -1,0 +1,12 @@
+# file = open("file.txt", 'r')
+# print(file.read())
+# print(file.readlines(2))
+# file.close()
+
+file = open("file.txt", "a")
+x = input("Enter Topic: ")
+file.write("\n"+ x)
+file.close()
+file = open("file.txt", "r")
+print(file.read())
+file.close()
